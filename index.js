@@ -4,3 +4,39 @@ const logDriverNames = function (array){
   console.log(item.name)
   
 }
+
+
+const logDriversByHometown = function(array, location){
+  array.forEach(function (element){
+    if(element.hometown===location)
+    {
+      console.log(element.name);
+      
+    }
+  });
+};
+
+
+
+const driversByRevenue = function(array) 
+{
+  return array.slice().sort(function (elementA, elementB)
+  {
+    return elementA.revenue-elementB.revenue;
+    
+  }
+  )};
+  
+  
+  
+const driversByName = function(array) 
+{
+  return array.slice().sort(function (elementA, elementB)
+  {
+    return elementA.name - elementB.name;
+    
+  }
+  )};
+  
+  
+  
