@@ -40,13 +40,8 @@ const driversByName = function(array)
   
   
   onst totalRevenue = function(array){
-  array.forEach(function (element){
-    
-    {
-      console.log(element.name);
-      
-    }
-  });
-};
+  array.reduce(function (0)
+  return 
+  )
 
   
