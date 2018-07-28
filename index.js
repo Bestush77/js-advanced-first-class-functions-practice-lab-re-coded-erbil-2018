@@ -39,9 +39,10 @@ const driversByName = function(array)
   )};
   
   
-  onst totalRevenue = function(array){
-  array.reduce(function (0)
-  return 
-  )
-
+  const totalRevenue = function(array){
+  array.reduce(function (x, item){
+  return x+ item.revenue;
+  });
+  
+};
   
