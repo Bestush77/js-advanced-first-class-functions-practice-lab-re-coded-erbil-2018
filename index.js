@@ -49,5 +49,5 @@ const driversByName = function(array)
   
    const averageRevenue = function(array){
   
-  return totalRevenue / array.length;
+  return totalRevenue / array.length();
    };
