@@ -39,4 +39,14 @@ const driversByName = function(array)
   )};
   
   
+  onst logDriversByHometown = function(array, location){
+  array.forEach(function (element){
+    if(element.hometown===location)
+    {
+      console.log(element.name);
+      
+    }
+  });
+};
+
   
