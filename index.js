@@ -39,9 +39,9 @@ const driversByName = function(array)
   )};
   
   
-  onst logDriversByHometown = function(array, location){
+  onst totalRevenue = function(array){
   array.forEach(function (element){
-    if(element.hometown===location)
+    
     {
       console.log(element.name);
       
