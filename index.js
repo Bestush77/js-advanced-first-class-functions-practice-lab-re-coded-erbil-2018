@@ -46,3 +46,13 @@ const driversByName = function(array)
   
 };
   
+  
+   const averageRevenue = function(array){
+     let c = 0;
+     let sum = 0;
+  return array.reduce(function (x, item){
+    c++
+  return x+ item.revenue;
+  },0);
+};
+  
