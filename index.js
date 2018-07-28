@@ -33,7 +33,7 @@ const driversByName = function(array)
 {
   return array.slice().sort(function (elementA, elementB)
   {
-    return elementA.name.localCompare(elementB.name);
+    return elementA[name].localCompare(elementB[name]);
     
   }
   )};
